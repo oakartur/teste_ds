@@ -2,13 +2,14 @@
 
 ## Desafio:
 
-Seu desafio será obter informações sobre o valor das transferências transferências obrigatórias da União para os estados entre os anos de 2017 e 2022 APENAS para o estado de Alagoas. 
+Seu desafio será obter informações sobre o valor das transferências obrigatórias da União para os estados entre os anos de 2017 e 2022 APENAS para o estado de Alagoas. 
 
 Este é um desafio <b>NÃO ELIMINATÓRIO</b>. Isto quer dizer que vamos utilizar este teste apenas para entender melhor o seu perfil, sua lógica de programação e assim, poderemos traçar o melhor plano de treinamento caso você seja selecionado(a).
 
 ## Onde encontrar informações sobre servidores ativos: 
 
-O Tesouro Nacional disponibiliza vários conjuntos de dados na seção de dados abertos. Vamos coletar TODOS os csv disponibilizados na seguinte página: https://www.tesourotransparente.gov.br/ckan/dataset/transferencias-obrigatorias-da-uniao.
+O Tesouro Nacional disponibiliza vários conjuntos de dados na seção de dados abertos. Vamos coletar TODOS os csv disponibilizados na seguinte página: https://www.tesourotransparente.gov.br/ckan/dataset/transferencias-obrigatorias-da-uniao. Isto é, coletaremos informações sobre as seguintes traferências da união para os Estados: 'CIDE_EST', 'CIDE_MUN', 'FEX_EST', 'FEX_MUN', 'FPE', 'FPM', 'IOF_EST', 'IOF_MUN', 'IPI EXP', 'ITR', 'LC87_EST', 'LC87_MUN', 'LC176_EST',
+'LC176_MUN', 'TCP' e 'FPM_CAPITAIS'.
 
 
 ## Instruções:
@@ -27,7 +28,7 @@ O seu processo de ETL poderá ser dividido nas seguintes etapas:
  Apenas dados do Estado de Alagoas<br>
  Os meses devem ser do tipo Inteiros<br>
  Os valores monetários devem ser do tipo Float<br>
- Unir todas as tabelas em uma única tabela.<br>
+ Unir todas as tabelas em uma única tabela com todas as transferências.<br>
  </ol>
  </li>
  
