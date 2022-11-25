@@ -31,7 +31,7 @@ O seu processo de ETL poderá ser dividido nas seguintes etapas:
  </ol>
  </li>
  
-O resultado final deve ser um dataframe com as seguintes informações e na seguinte ordem:<br>
+O resultado final deve ser um dataframe com as seguintes informações e na seguinte ordem das colunas:<br>
 <br>
 ![imagem](tabela_final.png)
 <br>
