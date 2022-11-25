@@ -20,20 +20,21 @@ O seu processo de ETL poderá ser dividido nas seguintes etapas:
  Extraia TODOS os CSV da url fornecida acima<br>
  Fique a vontade para extrair os dados usando a ferramenta na qual você se sente confortável (scrapy, bs4 etc)<br>
  </ol>
+ <li>
  Transformação dos dados:
  <ol>
  Queremos APENAS dados de 2017 a 2022<br>
  Apenas dados do Estado de Alagoas<br>
  Os meses devem ser do tipo Inteiros<br>
  Os valores monetários devem ser do tipo Float<br>
- Unir todas as tabelas em uma única tabela.
+ Unir todas as tabelas em uma única tabela.<br>
  </ol>
  </li>
-
-O resultado final deve ser um dataframe com as seguintes informações e na seguinte ordem:
-
+ 
+O resultado final deve ser um dataframe com as seguintes informações e na seguinte ordem:<br>
+<br>
 ![imagem](tabela_final.png)
-
+<br>
 ## Atenção:
 
 <ul>
